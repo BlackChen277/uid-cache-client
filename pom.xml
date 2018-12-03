@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.chinaredstar.opensdk</groupId>
+  <artifactId>id-generator</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+
+  <dependencies>
+    <dependency>
+      <groupId>com.chinaredstar.opensdk</groupId>
+      <artifactId>id-generator-client</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>id-generator-client</module>
+    <module>example</module>
+  </modules>
+
+  <properties>
+    <org.slf4j.version>1.7.25</org.slf4j.version>
+    <spring.version>4.2.5.RELEASE</spring.version>
+    <logback.version>1.2.3</logback.version>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>${org.slf4j.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>${logback.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-core</artifactId>
+        <version>${spring.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+</project>
