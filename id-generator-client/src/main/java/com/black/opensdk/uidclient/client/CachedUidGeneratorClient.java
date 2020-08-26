@@ -1,15 +1,14 @@
 
-package com.chinaredstar.opensdk.uidclient.client;
+package com.black.opensdk.uidclient.client;
 
 
-import com.chinaredstar.opensdk.uidclient.buffer.AbstractBuffer;
-import com.chinaredstar.opensdk.uidclient.buffer.BufferPaddingExecutor;
-import com.chinaredstar.opensdk.uidclient.buffer.LinkedBuffer;
-import com.chinaredstar.opensdk.uidclient.buffer.RejectedPutBufferHandler;
-import com.chinaredstar.opensdk.uidclient.buffer.RejectedTakeBufferHandler;
-import com.chinaredstar.opensdk.uidclient.buffer.RingBuffer;
-import com.chinaredstar.opensdk.uidclient.buffer.UidProvider;
-import com.chinaredstar.opensdk.uidclient.exception.UidGenerateException;
+import com.black.opensdk.uidclient.exception.UidGenerateException;
+import com.black.opensdk.uidclient.buffer.AbstractBuffer;
+import com.black.opensdk.uidclient.buffer.BufferPaddingExecutor;
+import com.black.opensdk.uidclient.buffer.LinkedBuffer;
+import com.black.opensdk.uidclient.buffer.RejectedPutBufferHandler;
+import com.black.opensdk.uidclient.buffer.RejectedTakeBufferHandler;
+import com.black.opensdk.uidclient.buffer.UidProvider;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.Assert;

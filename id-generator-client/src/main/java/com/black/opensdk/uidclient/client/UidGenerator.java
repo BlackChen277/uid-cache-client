@@ -1,6 +1,6 @@
 
 
-package com.chinaredstar.opensdk.uidclient.client;
+package com.black.opensdk.uidclient.client;
 
 /**
  *  uid

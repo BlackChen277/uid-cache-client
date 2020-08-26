@@ -1,7 +1,6 @@
 
-package com.chinaredstar.opensdk.uidclient.buffer;
+package com.black.opensdk.uidclient.buffer;
 
-import com.chinaredstar.opensdk.uidclient.exception.UidGenerateException;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.atomic.AtomicInteger;
 import org.slf4j.Logger;

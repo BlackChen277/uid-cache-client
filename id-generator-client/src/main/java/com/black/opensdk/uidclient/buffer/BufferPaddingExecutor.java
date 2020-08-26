@@ -1,7 +1,7 @@
 
-package com.chinaredstar.opensdk.uidclient.buffer;
+package com.black.opensdk.uidclient.buffer;
 
-import com.chinaredstar.opensdk.uidclient.util.NamingThreadFactory;
+import com.black.opensdk.uidclient.util.NamingThreadFactory;
 import java.util.List;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ExecutorService;

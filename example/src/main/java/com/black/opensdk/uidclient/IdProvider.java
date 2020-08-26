@@ -1,6 +1,7 @@
-package com.chinaredstar.opensdk.uidclient;
+package com.black.opensdk.uidclient;
 
-import com.chinaredstar.opensdk.uidclient.buffer.UidProvider;
+import com.black.opensdk.uidclient.buffer.UidProvider;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;

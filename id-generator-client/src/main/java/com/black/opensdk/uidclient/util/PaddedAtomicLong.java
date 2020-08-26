@@ -1,4 +1,4 @@
-package com.chinaredstar.opensdk.uidclient.util;
+package com.black.opensdk.uidclient.util;
 
 import java.util.concurrent.atomic.AtomicLong;
 

@@ -1,4 +1,4 @@
-package com.chinaredstar.opensdk.uidclient.exception;
+package com.black.opensdk.uidclient.exception;
 
 
 public class UidGenerateException extends RuntimeException {

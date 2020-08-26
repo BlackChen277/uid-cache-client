@@ -1,4 +1,4 @@
-package com.chinaredstar.opensdk.uidclient.buffer;
+package com.black.opensdk.uidclient.buffer;
 
 /**
  * @Author: chen
