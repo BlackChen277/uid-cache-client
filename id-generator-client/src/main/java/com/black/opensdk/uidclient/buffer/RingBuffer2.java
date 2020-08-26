@@ -1,7 +1,7 @@
 //
-//package com.chinaredstar.opensdk.uidclient.buffer;
+//package com.black.opensdk.uidclient.buffer;
 //
-//import com.chinaredstar.opensdk.uidclient.util.PaddedAtomicLong;
+//import com.black.opensdk.uidclient.util.PaddedAtomicLong;
 //import java.util.concurrent.atomic.AtomicLong;
 //import java.util.concurrent.locks.Lock;
 //import java.util.concurrent.locks.ReentrantLock;
